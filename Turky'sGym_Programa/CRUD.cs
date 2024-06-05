@@ -10,11 +10,26 @@ using System.Windows.Forms;
 
 namespace Turky_sGym_Programa
 {
-    public partial class Form1 : Form
+    public partial class CRUD : Form
     {
-        public Form1()
+        public CRUD()
         {
             InitializeComponent();
+        }
+
+        private void Agregar_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

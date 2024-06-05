@@ -1,0 +1,9 @@
+C:\Users\dominick\Desktop\clon\Trabajo MOANSO\Actividad_SEM11\Turky'sGym_Programa\bin\Debug\Turky'sGym_Programa.exe.config
+C:\Users\dominick\Desktop\clon\Trabajo MOANSO\Actividad_SEM11\Turky'sGym_Programa\bin\Debug\Turky'sGym_Programa.exe
+C:\Users\dominick\Desktop\clon\Trabajo MOANSO\Actividad_SEM11\Turky'sGym_Programa\bin\Debug\Turky'sGym_Programa.pdb
+C:\Users\dominick\Desktop\clon\Trabajo MOANSO\Actividad_SEM11\Turky'sGym_Programa\obj\Debug\CapaPresentación.csproj.AssemblyReference.cache
+C:\Users\dominick\Desktop\clon\Trabajo MOANSO\Actividad_SEM11\Turky'sGym_Programa\obj\Debug\Turky_sGym_Programa.Properties.Resources.resources
+C:\Users\dominick\Desktop\clon\Trabajo MOANSO\Actividad_SEM11\Turky'sGym_Programa\obj\Debug\CapaPresentación.csproj.GenerateResource.cache
+C:\Users\dominick\Desktop\clon\Trabajo MOANSO\Actividad_SEM11\Turky'sGym_Programa\obj\Debug\CapaPresentación.csproj.CoreCompileInputs.cache
+C:\Users\dominick\Desktop\clon\Trabajo MOANSO\Actividad_SEM11\Turky'sGym_Programa\obj\Debug\Turky'sGym_Programa.exe
+C:\Users\dominick\Desktop\clon\Trabajo MOANSO\Actividad_SEM11\Turky'sGym_Programa\obj\Debug\Turky'sGym_Programa.pdb
