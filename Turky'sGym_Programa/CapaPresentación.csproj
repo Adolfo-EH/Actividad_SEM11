@@ -58,6 +58,12 @@
     <Compile Include="CRUD.Designer.cs">
       <DependentUpon>CRUD.cs</DependentUpon>
     </Compile>
+    <Compile Include="formConsultaProducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formConsultaProducto.Designer.cs">
+      <DependentUpon>formConsultaProducto.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="CORE_VENTA_SERVICIOS.resx">
