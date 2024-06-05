@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Consulta Servicio Cliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consulta Servicio Cliente.Designer.cs">
+      <DependentUpon>Consulta Servicio Cliente.cs</DependentUpon>
+    </Compile>
     <Compile Include="CORE_VENTA_SERVICIOS.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -66,6 +72,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Consulta Servicio Cliente.resx">
+      <DependentUpon>Consulta Servicio Cliente.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="CORE_VENTA_SERVICIOS.resx">
       <DependentUpon>CORE_VENTA_SERVICIOS.cs</DependentUpon>
     </EmbeddedResource>
