@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CORE_VENTA_SERVICIOS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CORE_VENTA_SERVICIOS.Designer.cs">
+      <DependentUpon>CORE_VENTA_SERVICIOS.cs</DependentUpon>
+    </Compile>
     <Compile Include="CRUD.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -54,6 +60,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="CORE_VENTA_SERVICIOS.resx">
+      <DependentUpon>CORE_VENTA_SERVICIOS.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="CRUD.resx">
       <DependentUpon>CRUD.cs</DependentUpon>
     </EmbeddedResource>
