@@ -76,6 +76,12 @@
     <Compile Include="formConsultaProducto.Designer.cs">
       <DependentUpon>formConsultaProducto.cs</DependentUpon>
     </Compile>
+    <Compile Include="formStockProducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formStockProducto.Designer.cs">
+      <DependentUpon>formStockProducto.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Consulta Servicio Cliente.resx">
@@ -89,6 +95,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="CrudPlanes.resx">
       <DependentUpon>CrudPlanes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formStockProducto.resx">
+      <DependentUpon>formStockProducto.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
