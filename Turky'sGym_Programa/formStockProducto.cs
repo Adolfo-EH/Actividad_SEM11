@@ -16,5 +16,10 @@ namespace Turky_sGym_Programa
         {
             InitializeComponent();
         }
+
+        private void dgvStockProducto_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }

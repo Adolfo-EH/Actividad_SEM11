@@ -76,6 +76,12 @@
     <Compile Include="formConsultaProducto.Designer.cs">
       <DependentUpon>formConsultaProducto.cs</DependentUpon>
     </Compile>
+    <Compile Include="formsPromociones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formsPromociones.Designer.cs">
+      <DependentUpon>formsPromociones.cs</DependentUpon>
+    </Compile>
     <Compile Include="formStockProducto.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -95,6 +101,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="CrudPlanes.resx">
       <DependentUpon>CrudPlanes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formsPromociones.resx">
+      <DependentUpon>formsPromociones.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="formStockProducto.resx">
       <DependentUpon>formStockProducto.cs</DependentUpon>
