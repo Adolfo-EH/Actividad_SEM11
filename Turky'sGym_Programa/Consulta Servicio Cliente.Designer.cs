@@ -39,25 +39,28 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(60, 136);
+            this.label1.Location = new System.Drawing.Point(45, 110);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(64, 16);
+            this.label1.Size = new System.Drawing.Size(53, 13);
             this.label1.TabIndex = 0;
             this.label1.Text = "ID Cliente";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // txtID
             // 
-            this.txtID.Location = new System.Drawing.Point(63, 192);
+            this.txtID.Location = new System.Drawing.Point(47, 156);
+            this.txtID.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtID.Name = "txtID";
-            this.txtID.Size = new System.Drawing.Size(164, 22);
+            this.txtID.Size = new System.Drawing.Size(124, 20);
             this.txtID.TabIndex = 1;
             // 
             // btnBuscar
             // 
-            this.btnBuscar.Location = new System.Drawing.Point(270, 191);
+            this.btnBuscar.Location = new System.Drawing.Point(202, 155);
+            this.btnBuscar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnBuscar.Name = "btnBuscar";
-            this.btnBuscar.Size = new System.Drawing.Size(75, 23);
+            this.btnBuscar.Size = new System.Drawing.Size(56, 19);
             this.btnBuscar.TabIndex = 2;
             this.btnBuscar.Text = "Buscar";
             this.btnBuscar.UseVisualStyleBackColor = true;
@@ -65,34 +68,38 @@
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(458, 58);
+            this.dataGridView1.Location = new System.Drawing.Point(344, 47);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(272, 330);
+            this.dataGridView1.Size = new System.Drawing.Size(204, 268);
             this.dataGridView1.TabIndex = 3;
             // 
             // btnRegresar
             // 
-            this.btnRegresar.Location = new System.Drawing.Point(710, 12);
+            this.btnRegresar.Location = new System.Drawing.Point(532, 10);
+            this.btnRegresar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnRegresar.Name = "btnRegresar";
-            this.btnRegresar.Size = new System.Drawing.Size(78, 24);
+            this.btnRegresar.Size = new System.Drawing.Size(58, 20);
             this.btnRegresar.TabIndex = 4;
             this.btnRegresar.Text = "Regresar";
             this.btnRegresar.UseVisualStyleBackColor = true;
             // 
             // Consulta_Servicio_Cliente
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(600, 366);
             this.Controls.Add(this.btnRegresar);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.btnBuscar);
             this.Controls.Add(this.txtID);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Consulta_Servicio_Cliente";
             this.Text = "Consulta_Servicio_Cliente";
+            this.Load += new System.EventHandler(this.Consulta_Servicio_Cliente_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

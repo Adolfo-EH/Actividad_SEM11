@@ -21,5 +21,10 @@ namespace Turky_sGym_Programa
         {
 
         }
+
+        private void Consulta_Servicio_Cliente_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

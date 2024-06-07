@@ -17,6 +17,7 @@ namespace Turky_sGym_Programa
         {
             InitializeComponent();
             InicializarPrecios();
+            
             cbxTipoPlan.SelectedIndexChanged += new EventHandler(cbxTipoPlan_SelectedIndexChanged);
         }
 
@@ -75,6 +76,16 @@ namespace Turky_sGym_Programa
         }
 
         private void button2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cbxTipoPlan_SelectedIndexChanged_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void CORE_VENTA_SERVICIOS_Load(object sender, EventArgs e)
         {
 
         }
