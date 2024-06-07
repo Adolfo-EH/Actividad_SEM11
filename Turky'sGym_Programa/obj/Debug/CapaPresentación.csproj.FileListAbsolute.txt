@@ -57,3 +57,18 @@ D:\MI COMMIT\Turky'sGym_Programa\obj\Debug\CapaPresentación.csproj.CoreCompileI
 D:\MI COMMIT\Turky'sGym_Programa\obj\Debug\Turky'sGym_Programa.exe
 D:\MI COMMIT\Turky'sGym_Programa\obj\Debug\Turky'sGym_Programa.pdb
 D:\MI COMMIT\Turky'sGym_Programa\obj\Debug\Turky_sGym_Programa.ConsultaVentaServicio.resources
+D:\COMMIT_MOANSO\Turky'sGym_Programa\bin\Debug\Turky'sGym_Programa.exe.config
+D:\COMMIT_MOANSO\Turky'sGym_Programa\bin\Debug\Turky'sGym_Programa.exe
+D:\COMMIT_MOANSO\Turky'sGym_Programa\bin\Debug\Turky'sGym_Programa.pdb
+D:\COMMIT_MOANSO\Turky'sGym_Programa\obj\Debug\CapaPresentación.csproj.AssemblyReference.cache
+D:\COMMIT_MOANSO\Turky'sGym_Programa\obj\Debug\Turky_sGym_Programa.ConsultaVentaServicio.resources
+D:\COMMIT_MOANSO\Turky'sGym_Programa\obj\Debug\Turky_sGym_Programa.CORE_VENTA_SERVICIOS.resources
+D:\COMMIT_MOANSO\Turky'sGym_Programa\obj\Debug\Turky_sGym_Programa.CrudPlanes.resources
+D:\COMMIT_MOANSO\Turky'sGym_Programa\obj\Debug\Turky_sGym_Programa.formsPromociones.resources
+D:\COMMIT_MOANSO\Turky'sGym_Programa\obj\Debug\Turky_sGym_Programa.formStockProducto.resources
+D:\COMMIT_MOANSO\Turky'sGym_Programa\obj\Debug\Turky_sGym_Programa.MonitoreoClientes.resources
+D:\COMMIT_MOANSO\Turky'sGym_Programa\obj\Debug\Turky_sGym_Programa.Properties.Resources.resources
+D:\COMMIT_MOANSO\Turky'sGym_Programa\obj\Debug\CapaPresentación.csproj.GenerateResource.cache
+D:\COMMIT_MOANSO\Turky'sGym_Programa\obj\Debug\CapaPresentación.csproj.CoreCompileInputs.cache
+D:\COMMIT_MOANSO\Turky'sGym_Programa\obj\Debug\Turky'sGym_Programa.exe
+D:\COMMIT_MOANSO\Turky'sGym_Programa\obj\Debug\Turky'sGym_Programa.pdb

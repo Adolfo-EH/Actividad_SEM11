@@ -82,6 +82,12 @@
     <Compile Include="formStockProducto.Designer.cs">
       <DependentUpon>formStockProducto.cs</DependentUpon>
     </Compile>
+    <Compile Include="MonitoreoClientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MonitoreoClientes.Designer.cs">
+      <DependentUpon>MonitoreoClientes.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="ConsultaVentaServicio.resx">
@@ -98,6 +104,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="formStockProducto.resx">
       <DependentUpon>formStockProducto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MonitoreoClientes.resx">
+      <DependentUpon>MonitoreoClientes.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
