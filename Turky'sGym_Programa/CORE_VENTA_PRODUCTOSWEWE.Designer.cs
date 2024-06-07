@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.lblVentaServicios = new System.Windows.Forms.Label();
-            this.dtgVentaServicios = new System.Windows.Forms.DataGridView();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.lblTipoPlan = new System.Windows.Forms.Label();
             this.cbxTipoPlan = new System.Windows.Forms.ComboBox();
             this.lblPrecioAPagar = new System.Windows.Forms.Label();
@@ -53,9 +53,9 @@
             this.btnSalir = new System.Windows.Forms.Button();
             this.btnBuscarCliente = new System.Windows.Forms.Button();
             this.lblMetodoPago = new System.Windows.Forms.Label();
-            this.cbMetodoPagoS = new System.Windows.Forms.ComboBox();
+            this.cbMetodoPago = new System.Windows.Forms.ComboBox();
             this.btnConsultarVentas = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.dtgVentaServicios)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -70,13 +70,13 @@
             this.lblVentaServicios.Text = "VENTA SERVICIOS";
             this.lblVentaServicios.Click += new System.EventHandler(this.label1_Click);
             // 
-            // dtgVentaServicios
+            // dataGridView1
             // 
-            this.dtgVentaServicios.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dtgVentaServicios.Location = new System.Drawing.Point(523, 80);
-            this.dtgVentaServicios.Name = "dtgVentaServicios";
-            this.dtgVentaServicios.Size = new System.Drawing.Size(520, 333);
-            this.dtgVentaServicios.TabIndex = 1;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(523, 80);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(520, 333);
+            this.dataGridView1.TabIndex = 1;
             // 
             // lblTipoPlan
             // 
@@ -114,9 +114,9 @@
             this.lblPrecio.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblPrecio.Location = new System.Drawing.Point(188, 137);
             this.lblPrecio.Name = "lblPrecio";
-            this.lblPrecio.Size = new System.Drawing.Size(54, 16);
+            this.lblPrecio.Size = new System.Drawing.Size(45, 16);
             this.lblPrecio.TabIndex = 5;
-            this.lblPrecio.Text = "Sprecio";
+            this.lblPrecio.Text = "precio";
             this.lblPrecio.Click += new System.EventHandler(this.lblPrecio_Click);
             // 
             // lblDNICliente
@@ -301,13 +301,13 @@
             this.lblMetodoPago.Text = "Método de Pago:";
             this.lblMetodoPago.Click += new System.EventHandler(this.label3_Click);
             // 
-            // cbMetodoPagoS
+            // cbMetodoPago
             // 
-            this.cbMetodoPagoS.FormattingEnabled = true;
-            this.cbMetodoPagoS.Location = new System.Drawing.Point(188, 166);
-            this.cbMetodoPagoS.Name = "cbMetodoPagoS";
-            this.cbMetodoPagoS.Size = new System.Drawing.Size(187, 21);
-            this.cbMetodoPagoS.TabIndex = 19;
+            this.cbMetodoPago.FormattingEnabled = true;
+            this.cbMetodoPago.Location = new System.Drawing.Point(188, 166);
+            this.cbMetodoPago.Name = "cbMetodoPago";
+            this.cbMetodoPago.Size = new System.Drawing.Size(187, 21);
+            this.cbMetodoPago.TabIndex = 19;
             // 
             // btnConsultarVentas
             // 
@@ -323,9 +323,9 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1088, 505);
+            this.ClientSize = new System.Drawing.Size(1088, 586);
             this.Controls.Add(this.btnConsultarVentas);
-            this.Controls.Add(this.cbMetodoPagoS);
+            this.Controls.Add(this.cbMetodoPago);
             this.Controls.Add(this.lblMetodoPago);
             this.Controls.Add(this.btnBuscarCliente);
             this.Controls.Add(this.btnSalir);
@@ -341,13 +341,13 @@
             this.Controls.Add(this.lblPrecioAPagar);
             this.Controls.Add(this.cbxTipoPlan);
             this.Controls.Add(this.lblTipoPlan);
-            this.Controls.Add(this.dtgVentaServicios);
+            this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.lblVentaServicios);
             this.Controls.Add(this.groupBox1);
             this.Name = "CORE_VENTA_SERVICIOS";
             this.Text = "CORE_VENTA_SERVICIOS";
             this.Load += new System.EventHandler(this.CORE_VENTA_SERVICIOS_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.dtgVentaServicios)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
@@ -358,7 +358,7 @@
         #endregion
 
         private System.Windows.Forms.Label lblVentaServicios;
-        private System.Windows.Forms.DataGridView dtgVentaServicios;
+        private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Label lblTipoPlan;
         private System.Windows.Forms.ComboBox cbxTipoPlan;
         private System.Windows.Forms.Label lblPrecioAPagar;
@@ -382,7 +382,7 @@
         private System.Windows.Forms.Button btnSalir;
         private System.Windows.Forms.Button btnBuscarCliente;
         private System.Windows.Forms.Label lblMetodoPago;
-        private System.Windows.Forms.ComboBox cbMetodoPagoS;
+        private System.Windows.Forms.ComboBox cbMetodoPago;
         private System.Windows.Forms.Button btnConsultarVentas;
     }
 }

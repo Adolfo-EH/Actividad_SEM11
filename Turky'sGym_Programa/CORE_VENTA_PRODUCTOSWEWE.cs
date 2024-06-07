@@ -37,7 +37,7 @@ namespace Turky_sGym_Programa
             "DIARIO", "MENSUAL", "TRIMESTRAL", "SEMESTRAL", "ANUAL"
             });
 
-            cbMetodoPagoS.Items.AddRange(new object[]
+            cbMetodoPago.Items.AddRange(new object[]
            {
             "YAPE", "EFECTIVO", "TARJETA"
            });
