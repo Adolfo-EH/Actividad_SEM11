@@ -10,9 +10,10 @@ using System.Windows.Forms;
 
 namespace Turky_sGym_Programa
 {
-    public partial class Consulta_Servicio_Cliente : Form
+    public partial class ConsultaVentaServicio : Form
     {
-        public Consulta_Servicio_Cliente()
+        
+        public ConsultaVentaServicio()
         {
             InitializeComponent();
         }
@@ -22,9 +23,19 @@ namespace Turky_sGym_Programa
 
         }
 
-        private void Consulta_Servicio_Cliente_Load(object sender, EventArgs e)
+        private void textBox1_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void ConsultaVentaServicio_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnRegresarVS_Click(object sender, EventArgs e)
+        {
+            Close();
         }
     }
 }

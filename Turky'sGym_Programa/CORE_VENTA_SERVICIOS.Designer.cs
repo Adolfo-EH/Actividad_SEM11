@@ -52,6 +52,9 @@
             this.btnAnularVenta = new System.Windows.Forms.Button();
             this.btnSalir = new System.Windows.Forms.Button();
             this.btnBuscarCliente = new System.Windows.Forms.Button();
+            this.lblMetodoPago = new System.Windows.Forms.Label();
+            this.cbMetodoPago = new System.Windows.Forms.ComboBox();
+            this.btnConsultarVentas = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -59,10 +62,10 @@
             // lblVentaServicios
             // 
             this.lblVentaServicios.AutoSize = true;
-            this.lblVentaServicios.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblVentaServicios.Location = new System.Drawing.Point(49, 9);
+            this.lblVentaServicios.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblVentaServicios.Location = new System.Drawing.Point(421, 9);
             this.lblVentaServicios.Name = "lblVentaServicios";
-            this.lblVentaServicios.Size = new System.Drawing.Size(103, 13);
+            this.lblVentaServicios.Size = new System.Drawing.Size(276, 31);
             this.lblVentaServicios.TabIndex = 0;
             this.lblVentaServicios.Text = "VENTA SERVICIOS";
             this.lblVentaServicios.Click += new System.EventHandler(this.label1_Click);
@@ -70,18 +73,18 @@
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(52, 35);
+            this.dataGridView1.Location = new System.Drawing.Point(523, 80);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(520, 150);
+            this.dataGridView1.Size = new System.Drawing.Size(520, 333);
             this.dataGridView1.TabIndex = 1;
             // 
             // lblTipoPlan
             // 
             this.lblTipoPlan.AutoSize = true;
             this.lblTipoPlan.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTipoPlan.Location = new System.Drawing.Point(125, 220);
+            this.lblTipoPlan.Location = new System.Drawing.Point(96, 101);
             this.lblTipoPlan.Name = "lblTipoPlan";
-            this.lblTipoPlan.Size = new System.Drawing.Size(87, 16);
+            this.lblTipoPlan.Size = new System.Drawing.Size(86, 16);
             this.lblTipoPlan.TabIndex = 2;
             this.lblTipoPlan.Text = "Tipo de plan:";
             this.lblTipoPlan.Click += new System.EventHandler(this.label1_Click_1);
@@ -89,7 +92,7 @@
             // cbxTipoPlan
             // 
             this.cbxTipoPlan.FormattingEnabled = true;
-            this.cbxTipoPlan.Location = new System.Drawing.Point(217, 219);
+            this.cbxTipoPlan.Location = new System.Drawing.Point(188, 100);
             this.cbxTipoPlan.Name = "cbxTipoPlan";
             this.cbxTipoPlan.Size = new System.Drawing.Size(187, 21);
             this.cbxTipoPlan.TabIndex = 3;
@@ -99,9 +102,9 @@
             // 
             this.lblPrecioAPagar.AutoSize = true;
             this.lblPrecioAPagar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPrecioAPagar.Location = new System.Drawing.Point(112, 252);
+            this.lblPrecioAPagar.Location = new System.Drawing.Point(82, 137);
             this.lblPrecioAPagar.Name = "lblPrecioAPagar";
-            this.lblPrecioAPagar.Size = new System.Drawing.Size(100, 16);
+            this.lblPrecioAPagar.Size = new System.Drawing.Size(99, 16);
             this.lblPrecioAPagar.TabIndex = 4;
             this.lblPrecioAPagar.Text = "Precio a pagar:";
             // 
@@ -109,9 +112,9 @@
             // 
             this.lblPrecio.AutoSize = true;
             this.lblPrecio.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPrecio.Location = new System.Drawing.Point(217, 252);
+            this.lblPrecio.Location = new System.Drawing.Point(188, 137);
             this.lblPrecio.Name = "lblPrecio";
-            this.lblPrecio.Size = new System.Drawing.Size(46, 16);
+            this.lblPrecio.Size = new System.Drawing.Size(45, 16);
             this.lblPrecio.TabIndex = 5;
             this.lblPrecio.Text = "precio";
             this.lblPrecio.Click += new System.EventHandler(this.lblPrecio_Click);
@@ -120,15 +123,15 @@
             // 
             this.lblDNICliente.AutoSize = true;
             this.lblDNICliente.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDNICliente.Location = new System.Drawing.Point(82, 287);
+            this.lblDNICliente.Location = new System.Drawing.Point(53, 208);
             this.lblDNICliente.Name = "lblDNICliente";
-            this.lblDNICliente.Size = new System.Drawing.Size(130, 16);
+            this.lblDNICliente.Size = new System.Drawing.Size(129, 16);
             this.lblDNICliente.TabIndex = 6;
             this.lblDNICliente.Text = "Ingresar DNI Cliente:";
             // 
             // txbDNICliente
             // 
-            this.txbDNICliente.Location = new System.Drawing.Point(218, 287);
+            this.txbDNICliente.Location = new System.Drawing.Point(189, 208);
             this.txbDNICliente.Name = "txbDNICliente";
             this.txbDNICliente.Size = new System.Drawing.Size(186, 20);
             this.txbDNICliente.TabIndex = 7;
@@ -137,9 +140,9 @@
             // 
             this.lblNombreCompletoCliente.AutoSize = true;
             this.lblNombreCompletoCliente.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNombreCompletoCliente.Location = new System.Drawing.Point(49, 356);
+            this.lblNombreCompletoCliente.Location = new System.Drawing.Point(22, 262);
             this.lblNombreCompletoCliente.Name = "lblNombreCompletoCliente";
-            this.lblNombreCompletoCliente.Size = new System.Drawing.Size(163, 16);
+            this.lblNombreCompletoCliente.Size = new System.Drawing.Size(162, 16);
             this.lblNombreCompletoCliente.TabIndex = 8;
             this.lblNombreCompletoCliente.Text = "Nombre completo Cliente:";
             this.lblNombreCompletoCliente.Click += new System.EventHandler(this.label1_Click_2);
@@ -150,7 +153,7 @@
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(100, 53);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(78, 16);
+            this.label2.Size = new System.Drawing.Size(77, 16);
             this.label2.TabIndex = 9;
             this.label2.Text = "DNI Cliente:";
             // 
@@ -164,9 +167,9 @@
             this.groupBox1.Controls.Add(this.lblTelefonoCliente);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(33, 332);
+            this.groupBox1.Location = new System.Drawing.Point(6, 238);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(539, 143);
+            this.groupBox1.Size = new System.Drawing.Size(387, 143);
             this.groupBox1.TabIndex = 10;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Datos Cliente:";
@@ -205,7 +208,7 @@
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(91, 111);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(88, 16);
+            this.label1.Size = new System.Drawing.Size(87, 16);
             this.label1.TabIndex = 11;
             this.label1.Text = "Edad Cliente:";
             this.label1.Click += new System.EventHandler(this.label1_Click_3);
@@ -216,7 +219,7 @@
             this.lblTelefonoCliente.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTelefonoCliente.Location = new System.Drawing.Point(70, 82);
             this.lblTelefonoCliente.Name = "lblTelefonoCliente";
-            this.lblTelefonoCliente.Size = new System.Drawing.Size(109, 16);
+            this.lblTelefonoCliente.Size = new System.Drawing.Size(108, 16);
             this.lblTelefonoCliente.TabIndex = 10;
             this.lblTelefonoCliente.Text = "Teléfono Cliente:";
             // 
@@ -224,9 +227,9 @@
             // 
             this.lblFechaRegistro.AutoSize = true;
             this.lblFechaRegistro.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblFechaRegistro.Location = new System.Drawing.Point(105, 491);
+            this.lblFechaRegistro.Location = new System.Drawing.Point(78, 397);
             this.lblFechaRegistro.Name = "lblFechaRegistro";
-            this.lblFechaRegistro.Size = new System.Drawing.Size(106, 16);
+            this.lblFechaRegistro.Size = new System.Drawing.Size(105, 16);
             this.lblFechaRegistro.TabIndex = 11;
             this.lblFechaRegistro.Text = "Fecha  Registro:";
             // 
@@ -234,16 +237,16 @@
             // 
             this.lblFechaRegistroMostrar.AutoSize = true;
             this.lblFechaRegistroMostrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblFechaRegistroMostrar.Location = new System.Drawing.Point(220, 491);
+            this.lblFechaRegistroMostrar.Location = new System.Drawing.Point(193, 397);
             this.lblFechaRegistroMostrar.Name = "lblFechaRegistroMostrar";
-            this.lblFechaRegistroMostrar.Size = new System.Drawing.Size(41, 16);
+            this.lblFechaRegistroMostrar.Size = new System.Drawing.Size(40, 16);
             this.lblFechaRegistroMostrar.TabIndex = 12;
             this.lblFechaRegistroMostrar.Text = "fecha";
             // 
             // btnEditarFecha
             // 
             this.btnEditarFecha.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEditarFecha.Location = new System.Drawing.Point(289, 485);
+            this.btnEditarFecha.Location = new System.Drawing.Point(278, 391);
             this.btnEditarFecha.Name = "btnEditarFecha";
             this.btnEditarFecha.Size = new System.Drawing.Size(115, 28);
             this.btnEditarFecha.TabIndex = 13;
@@ -252,27 +255,27 @@
             // 
             // btnRegistroServicio
             // 
-            this.btnRegistroServicio.Location = new System.Drawing.Point(623, 35);
+            this.btnRegistroServicio.Location = new System.Drawing.Point(523, 431);
             this.btnRegistroServicio.Name = "btnRegistroServicio";
-            this.btnRegistroServicio.Size = new System.Drawing.Size(125, 29);
+            this.btnRegistroServicio.Size = new System.Drawing.Size(125, 41);
             this.btnRegistroServicio.TabIndex = 14;
             this.btnRegistroServicio.Text = "REGISTRAR VENTA";
             this.btnRegistroServicio.UseVisualStyleBackColor = true;
             // 
             // btnAnularVenta
             // 
-            this.btnAnularVenta.Location = new System.Drawing.Point(623, 98);
+            this.btnAnularVenta.Location = new System.Drawing.Point(656, 432);
             this.btnAnularVenta.Name = "btnAnularVenta";
-            this.btnAnularVenta.Size = new System.Drawing.Size(125, 27);
+            this.btnAnularVenta.Size = new System.Drawing.Size(125, 40);
             this.btnAnularVenta.TabIndex = 15;
             this.btnAnularVenta.Text = "ANULAR VENTA";
             this.btnAnularVenta.UseVisualStyleBackColor = true;
             // 
             // btnSalir
             // 
-            this.btnSalir.Location = new System.Drawing.Point(623, 159);
+            this.btnSalir.Location = new System.Drawing.Point(918, 431);
             this.btnSalir.Name = "btnSalir";
-            this.btnSalir.Size = new System.Drawing.Size(125, 26);
+            this.btnSalir.Size = new System.Drawing.Size(125, 41);
             this.btnSalir.TabIndex = 16;
             this.btnSalir.Text = "SALIR";
             this.btnSalir.UseVisualStyleBackColor = true;
@@ -280,18 +283,50 @@
             // 
             // btnBuscarCliente
             // 
-            this.btnBuscarCliente.Location = new System.Drawing.Point(428, 285);
+            this.btnBuscarCliente.Location = new System.Drawing.Point(394, 203);
             this.btnBuscarCliente.Name = "btnBuscarCliente";
-            this.btnBuscarCliente.Size = new System.Drawing.Size(114, 23);
+            this.btnBuscarCliente.Size = new System.Drawing.Size(110, 29);
             this.btnBuscarCliente.TabIndex = 17;
             this.btnBuscarCliente.Text = "BUSCAR CLIENTE";
             this.btnBuscarCliente.UseVisualStyleBackColor = true;
+            // 
+            // lblMetodoPago
+            // 
+            this.lblMetodoPago.AutoSize = true;
+            this.lblMetodoPago.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMetodoPago.Location = new System.Drawing.Point(70, 171);
+            this.lblMetodoPago.Name = "lblMetodoPago";
+            this.lblMetodoPago.Size = new System.Drawing.Size(111, 16);
+            this.lblMetodoPago.TabIndex = 18;
+            this.lblMetodoPago.Text = "Método de Pago:";
+            this.lblMetodoPago.Click += new System.EventHandler(this.label3_Click);
+            // 
+            // cbMetodoPago
+            // 
+            this.cbMetodoPago.FormattingEnabled = true;
+            this.cbMetodoPago.Location = new System.Drawing.Point(188, 166);
+            this.cbMetodoPago.Name = "cbMetodoPago";
+            this.cbMetodoPago.Size = new System.Drawing.Size(187, 21);
+            this.cbMetodoPago.TabIndex = 19;
+            // 
+            // btnConsultarVentas
+            // 
+            this.btnConsultarVentas.Location = new System.Drawing.Point(787, 431);
+            this.btnConsultarVentas.Name = "btnConsultarVentas";
+            this.btnConsultarVentas.Size = new System.Drawing.Size(125, 41);
+            this.btnConsultarVentas.TabIndex = 20;
+            this.btnConsultarVentas.Text = "CONSULTAR VENTAS";
+            this.btnConsultarVentas.UseVisualStyleBackColor = true;
+            this.btnConsultarVentas.Click += new System.EventHandler(this.btnConsultarVentas_Click);
             // 
             // CORE_VENTA_SERVICIOS
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 586);
+            this.ClientSize = new System.Drawing.Size(1088, 586);
+            this.Controls.Add(this.btnConsultarVentas);
+            this.Controls.Add(this.cbMetodoPago);
+            this.Controls.Add(this.lblMetodoPago);
             this.Controls.Add(this.btnBuscarCliente);
             this.Controls.Add(this.btnSalir);
             this.Controls.Add(this.btnAnularVenta);
@@ -346,5 +381,8 @@
         private System.Windows.Forms.Button btnAnularVenta;
         private System.Windows.Forms.Button btnSalir;
         private System.Windows.Forms.Button btnBuscarCliente;
+        private System.Windows.Forms.Label lblMetodoPago;
+        private System.Windows.Forms.ComboBox cbMetodoPago;
+        private System.Windows.Forms.Button btnConsultarVentas;
     }
 }

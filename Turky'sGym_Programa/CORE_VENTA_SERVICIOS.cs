@@ -36,6 +36,11 @@ namespace Turky_sGym_Programa
             {
             "DIARIO", "MENSUAL", "TRIMESTRAL", "SEMESTRAL", "ANUAL"
             });
+
+            cbMetodoPago.Items.AddRange(new object[]
+           {
+            "YAPE", "EFECTIVO", "TARJETA"
+           });
         }
 
         private void cbxTipoPlan_SelectedIndexChanged(object sender, EventArgs e)
@@ -77,7 +82,7 @@ namespace Turky_sGym_Programa
 
         private void button2_Click(object sender, EventArgs e)
         {
-
+            Close();
         }
 
         private void cbxTipoPlan_SelectedIndexChanged_1(object sender, EventArgs e)
@@ -88,6 +93,19 @@ namespace Turky_sGym_Programa
         private void CORE_VENTA_SERVICIOS_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnConsultarVentas_Click(object sender, EventArgs e)
+        {
+            ConsultaVentaServicio form2 = new ConsultaVentaServicio();
+            form2.StartPosition = FormStartPosition.Manual; // Especifica que se usará una posición manual
+            form2.Location = new Point(100, 100);
+            form2.Show();
         }
     }
 }
